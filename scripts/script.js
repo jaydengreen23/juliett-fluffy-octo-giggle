@@ -14,7 +14,7 @@ $(document).ready(function () {
     $('#clearBtn').click(function () {
         $('#outputList').empty();
     });
-
+    //Function for Phonetic
     function getPhonetic(letter) {
         switch (letter) {
             case 'A':
